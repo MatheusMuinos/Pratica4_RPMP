@@ -1,4 +1,4 @@
-# Etapa 1
+# %% CELULA 1 - ETAPA 01 - INTERPOLACAO LINEAR
 
 import numpy as np
 
@@ -13,7 +13,7 @@ R = Y[0] + ((G - X[0]) / (X[1] - X[0])) * (Y[1] - Y[0])
 print(f"O valor da receita para um gasto de R$ {G:,.2f} é R$ {R:,.2f}")
 
 
-# Etapa 2
+# %% CELULA 2 - ETAPA 02 - INTERPOLACAO DE LAGRANGE
 
 import numpy as np
 

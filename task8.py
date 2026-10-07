@@ -1,4 +1,4 @@
-# ETAPA 01
+# %% CELULA 1 - ETAPA 01 - REGRA DO TRAPEZIO
 
 import numpy as np
 from sympy import Symbol, diff
@@ -29,11 +29,11 @@ print(f"Integral pela regra do trapezio = {integral_trapeizo:.6f}")
 
 
 
-# ETAPA 02
+# %% CELULA 2 - ETAPA 02 - REGRA DO TRAPEZIO COMPOSTA
 
 import numpy as np
 
-# item 3 a 6
+# Itens 3 a 6: limites, quantidade de intervalos e passo.
 a = 3.0
 b = 3.6
 n = 6
@@ -61,12 +61,16 @@ print(f"area_total = {area_total:.9f}")
 print(f"Solucao exata de referencia = {np.log(b / a):.9f}\n")
 
 
-# ETAPA 03
+# %% CELULA 3 - ETAPA 03 - ERRO DE TRUNCAMENTO
 
 import numpy as np
 from sympy import Symbol, diff
 
-# item 2
+# Item 2: extremos do intervalo.
+a = 3.0
+b = 3.6
+n = 6
+h = (b - a) / n
 xint = np.array([a,b])
 
 # item 3

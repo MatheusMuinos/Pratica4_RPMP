@@ -1,4 +1,4 @@
-# Etapa 1
+# %% CELULA 1 - ETAPA 01 - INTERPOLACAO LINEAR
 
 import numpy as np
 
@@ -11,7 +11,7 @@ f_int = Y[0] + (xint - X[0]) * (Y[1] - Y[0]) / (X[1] - X[0])
 
 print(f"O valor interpolado para x = 2 é: {f_int:g}")
 
-# Etapa 2
+# %% CELULA 2 - ETAPA 02 - POLINOMIO DE NEWTON
 
 import numpy as np
 

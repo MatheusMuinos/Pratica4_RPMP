@@ -1,15 +1,12 @@
-# Etapa 1
+# %% CELULA 1 - ETAPA 01 - LEITURA E ANALISE DOS DADOS
 # Pedro Wenzel, Isabela Reol, Antonio Pedro, Maria Clara Marques, Matheus Muinos
 
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-from google.colab import drive
-
-drive.mount('/content/drive')
-
-arquivo = '/content/drive/MyDrive/PC - Programação 03.xlsx'
+# Coloque o arquivo Excel na mesma pasta deste arquivo Python.
+arquivo = 'PC - Programação 03.xlsx'
 
 df = pd.read_excel(arquivo)
 
@@ -44,8 +41,9 @@ print("\nMédia de altura:")
 print(media_al)
 
 
-# Etapa 2
+# %% CELULA 2 - ETAPA 02 - GRAFICO DE PONTUACAO
 # Pedro Wenzel, Isabela Reol, Antonio Pedro, Maria Clara Marques, Matheus Muinos
+
 import numpy as np
 import matplotlib.pyplot as plt
 X = (['Ana Carolina', 'Rosa Maria', 'Roberta', 'Lorenne', 'Nyeme', 'Caral Gattaz', 'Macris', 'Lorena', 'Gabi', 'Tainara', 'Pri Dariot', 'Natinha', 'Julia Kudiess', 'Kisy'])

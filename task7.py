@@ -1,11 +1,8 @@
+# %% CELULA 1 - ETAPA 01 - CONSTANTE DA MOLA
+
 import numpy as np
 import matplotlib.pyplot as plt
 import math
-
-
-# =========================
-# ETAPA 01 - CONSTANTE DA MOLA
-# =========================
 
 # Etapa 01 - item 4
 X = np.array([0.6, 1.2, 1.8, 2.4, 3.0, 3.6])
@@ -78,9 +75,11 @@ k = 2 * math.exp(a2_mola)
 print(f"Constante elastica k = {k:.6f} N/m\n")
 
 
-# =========================
-# ETAPA 02 - CORRENTE ALTERNADA
-# =========================
+# %% CELULA 2 - ETAPA 02 - CORRENTE ALTERNADA
+
+import math
+import matplotlib.pyplot as plt
+import numpy as np
 
 # Etapa 02 - item 3
 T = np.array([0.3, 0.6, 0.9, 1.2, 1.5, 1.8, 2.1, 2.4, 2.7])

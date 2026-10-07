@@ -1,3 +1,5 @@
+# %% CELULA 1 - AJUSTE LINEAR DO MOVIMENTO
+
 import numpy as np
 import matplotlib.pyplot as plt
 
